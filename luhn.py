@@ -36,9 +36,3 @@ class LuhnAlgorithm:
         return calculated_check_digit == check_digit
 
         
-# Example usage:
-
-luhn = LuhnAlgorithm()
-
-print(luhn.is_valid_isin("US0378331005"))  # True
-print(luhn.is_valid_isin("US0373831005"))  # False
