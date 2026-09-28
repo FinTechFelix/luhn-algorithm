@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luhn-algorithm"
+version = "0.1.0"
+description = "Validate ISINs and other identifiers using the Luhn algorithm."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["luhn", "isin", "checksum", "validation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["luhn"]
