@@ -8,12 +8,19 @@ version = "0.1.0"
 description = "Validate ISINs and other identifiers using the Luhn algorithm."
 readme = "README.md"
 requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [{name = "white-Sn0w"}]
 keywords = ["luhn", "isin", "checksum", "validation"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/FinTechFelix/luhn-algorithm"
+Repository = "https://github.com/FinTechFelix/luhn-algorithm"
+Issues = "https://github.com/FinTechFelix/luhn-algorithm/issues"
 
 [tool.setuptools]
 py-modules = ["luhn"]

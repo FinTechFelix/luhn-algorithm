@@ -8,7 +8,7 @@ class IsValidIsinTests(unittest.TestCase):
         self.luhn = LuhnAlgorithm()
 
     def test_valid_isins_are_accepted(self):
-        for isin in ("US0378331005", "GB0002634946"):
+        for isin in ("US0378331005", "GB0002634946", "DE000BASF111"):
             with self.subTest(isin=isin):
                 self.assertTrue(self.luhn.is_valid_isin(isin))
 

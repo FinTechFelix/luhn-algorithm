@@ -2,7 +2,7 @@
 
 This repository provides a Python implementation of the **Luhn Algorithm**, commonly used to validate identification numbers such as **ISINs** (International Securities Identification Numbers), credit card numbers, and other identifiers.
 
-Version: `0.1.0` (provisional; no release has been tagged). This project is licensed under the MIT License (see `LICENSE`).
+Version: `0.1.0` (not yet published to a package index). This project is licensed under the MIT License (see `LICENSE`).
 
 ## 🔍 What It Does
 
